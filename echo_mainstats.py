@@ -17,3 +17,6 @@ class Mainstats(Enum):
     ELECTRO_DAMAGE = "SPECTRO_DAMAGE"
     AERO_DAMAGE = "AERO_DAMAGE"
 
+    def __str__(self) -> str:
+        return self.value
+
